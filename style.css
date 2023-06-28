@@ -1,0 +1,38 @@
+#titulo{
+    text-align: center;
+}
+
+#formulario{
+    text-align: center;
+}
+.agregar{
+    text-align: center;
+}
+
+.claseFormulario{
+    background-color: rgba(250, 185, 178, 0.995);
+    
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+td, th{
+
+    text-align: center;
+    border: 1px solid salmon;
+    padding: 10px;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#vendedor{
+    text-align: center;
+    border: 1px solid blue;
+    
+}

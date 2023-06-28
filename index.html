@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes Latinos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo"> Permufes Latinos </h1>
+
+    <form id="formulario" >
+        <div class="claseFormulario">
+            <h2>Vendedor</h2> 
+            <input type="radio" id = "juana" name="vendedor" value="jua">
+            <label for="juana" > Juana </label> 
+              
+            <input type="radio" id = "pedro" name="vendedor" value="ped">
+            <label for="pedro" > Pedro </label> 
+        </div>
+
+
+        <div class="claseFormulario">
+            <h2>Producto</h2> 
+            <input type="radio" id = "aqua" name="producto" value="aqua">
+            <label for="aqua" > Aqua </label> 
+              
+            <input type="radio" id = "emocion" name="producto" value="emocion">
+            <label for="emocion" > Emocion </label> 
+
+            <input type="radio" id = "alegria" name="producto" value="alegria">
+            <label for="alegria" > Alegria </label> 
+            <input type="radio" id = "frescura" name="producto" value="frescura">
+            <label for="frescura" > Frescura </label> 
+
+
+        </div>
+   
+
+      <div class="claseFormulario">
+        <label for="cantidad" > Cantidad de productos </label>  
+        <input type="number" id = "cantidad" name="cantidad">
+      </div>
+      <div class="claseFormulario">
+        <button onclick="inicio()"> Añadir Venta</button>
+      </div>
+    
+ 
+    </form>
+    
+
+    
+
+  <div class="tabla">
+    <table id="transactionTable">
+
+      <tr> 
+        <th>Vendedor</th>
+        <th>Aqua</th>
+        <th>Emocion</th>
+        <th>Alegria</th>
+        <th>Frescura</th>
+      </tr>
+      <tr>
+        <td> Juana</td>
+        <td id="aquaJuana"></td>
+        <td id="emocionJuana"></td>
+        <td id="alegriaJuana"></td>
+        <td id="frescuraJuana"></td>
+        
+      </tr>
+
+      <tr>
+        <td> Pedro</td>
+        <td id="aquaPedro"></td>
+        <td id="emocionPedro"></td>
+        <td id="alegriaPedro"></td>
+        <td id="frescuraPedro"></td>
+      </tr>
+  
+    </table>
+  </div>
+
+  <div id="vendedor">
+    <h2  >Vendedor del mes </h2>
+    <div id="vendedorMes">
+    
+
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
